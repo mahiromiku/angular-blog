@@ -1,0 +1,5 @@
+.container__menu-bar > ul{
+  gap: 20px;
+  display: flex;
+  list-style-type: none;
+}
