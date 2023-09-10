@@ -3,9 +3,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #111111;
-  color: white;
+  color: #30EE27;
+  text-shadow: 4px 4px 0 #030D15;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+  color: #9de999;
+}
+
+body{
+  background: #2703f7;
+  animation: efeitoDaora 4s infinite alternate;
+}
+
+@keyframes efeitoDaora {
+  0%{
+    background: #2004bb;
+  }
+  50%{
+    background: #100165;
+  }
+  100%{
+    background: #0b0147;
+  }
 }
 
 a{

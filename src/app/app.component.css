@@ -1,0 +1,30 @@
+header{
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.eva-01
+{
+  position: fixed;
+  right: -300px;
+  top: -200px;
+  transform: rotate(-60deg);
+}
+
+.eva-01 img{
+  filter: opacity(50%);
+  max-width: 30%;
+}
+
+.shinji img{
+  filter: opacity(50%);
+  max-width: 15%;
+}
+
+.shinji{
+  position: fixed;
+  left: -250px;
+  bottom: -450px;
+  transform: rotate(60deg);
+}
